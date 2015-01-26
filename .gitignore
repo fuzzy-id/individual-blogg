@@ -1,2 +1,5 @@
 # Ignore exported html files
 *.html
+
+# Ignore files from bibtex2html
+bib2html*
