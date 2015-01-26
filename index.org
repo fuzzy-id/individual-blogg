@@ -1,0 +1,25 @@
+#+TITLE: Individuationsprobleme in der aktuellen wissenschaftsphilosophischen Debatte - Übersicht
+#+AUTHOR: Thomas Bach
+#+INCLUDE: artikel_kopf.org
+
+* Guten Tag!
+
+  Überlegung ist folgende: ich schreibe des öfteren mal hier rein, was
+  der Stand zu meiner Magister Arbeit ist. Dies sollte denn für mich
+  vor allem ein Ansporn sein, Text zu produzieren, der dann eventuell
+  auch später verwendbar ist. Allerdings ist der Anspruch durchaus
+  auch die Komplexität des Themas so weit herunter zu brechen, dass
+  auch ein Einsteiger der Materie, die /wesentlichen/ Argumente mit
+  verfolgen kann. Wer damit Probleme hat melde sich bitte bei mir und
+  frage genauer nach! Entweder ich kann es durch Nacharbeiten erklären
+  oder ihr deckt eine Kenntnisslücke meinerseits auf, welche beseitigt
+  werden sollte.
+
+* Einführung
+
+  + [[file:arbeitsbereich_und_themenfeld.org][Arbeitsbereich und Themenfeld]] – Klärung der Begriffe Metaphysik
+    und Ontologie, sowie Einführung in einige der wichtigsten
+    Positionen: Monismus, Strukturalismus, Pluralismus und Realismus.
+  + [[./individualitaet.html][Individualität]] – Einführung und Motivierung des Prinzips der
+    Identität des Ununterscheidbaren, kurze Einführung in die
+    Prädikatenlogik.

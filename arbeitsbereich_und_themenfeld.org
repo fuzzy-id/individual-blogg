@@ -1,0 +1,68 @@
+#+TITLE: Arbeitsbereich und Themenfeld
+#+DATE: <2015-01-10 Sat>
+#+INCLUDE: artikel_kopf.org
+
+Die Magister-Arbeit wird geschrieben im Arbeitsbereich ‚Theoretische
+Philosophie‘ und wird das Themenfeld der Ontologie und Metaphysik
+beackern. Ich verwende diese Begriffe folgendermaßen:[fn:1]
++ <<ontologie>>Ontologie :: Geht der Frage nach: ‚Welche irreduziblen
+     Objekte gibt es?‘. Wobei irreduzibel bedeutet ‚nicht mehr auf
+     weiteres rückführbar‘. Ein Synonym wäre primitiv.
++ Metaphysik :: Obermenge der Ontologie. Neben oben genannter Frage,
+     klärt die Metaphysik zusätzlich die Frage ‚Wie setzen sich
+     irreduzible Objekte zu größeren Komposita zusammen?‘, ‚Welche,
+     wiederum irreduzible, Relationen werden hierzu benötigt?‘
+
+Man könnte die Frage der Ontologie z.B. mit ‚Gott, und das ist alles‘
+beantworten. In der Tat war diese Antwort eine Zeit lang sogar recht
+beliebt. So dann muss aber eine Metaphysik erklären, wie dieser Gott
+alles weitere schafft – inklusive dem, was gerade diesen Artikel
+liest.
+
+Nach obiger Begriffsklärung wäre es möglich Metaphysik zu betreiben
+und Ontologie zu negieren. Also zu sagen, dass es keine /wirklichen/
+Objekte gibt, oder zumindest, dass diese Objekte nicht besonders
+wichtig sind. Wichtiger sind z.B. die Relationen und damit die
+Struktur, in welche diese Objekte eingebettet sind.
+
+Im Allgemeinen beschreibt die erste Position einen /Monismus/. Die
+postulierte Instanz muss dabei in keiner Weise so etwas esoterisches
+sein wie Gott. Man geht einfach mal nur davon aus, dass die Welt
+besser erklärt werden kann, wenn man das Ganze als primitiv ansieht
+und postuliert, dass Einzeldinge eher daran ‚herunterhängen‘.
+
+Die zweite Positition wird /Strukturalismus/ genannt. Dieser findet
+vor allem in der jüngeren Debatte zunehmend Anhänger.
+
+Eine weitere Position, welche ich an dieser Stelle noch kurz Anbringen
+möchte, ist die des /Pluralismus/. Dies ist, mehr oder weniger, genau
+die Umkehrung des Monismus: primitiv sind Objekte wie z.B.  die
+Elementarteilchen, wie sie uns die Physik postuliert. Größere Objekte
+setzen sich aus diesen zusammen.
+
+In obiger Erklärung des Monismus, tauchte die Phrase ‚kann besser
+erklärt werden, wenn …‘ auf. Diese – leider oft verschwiegene –
+Annahme ist die grundsätzliche Motivation aller hier vorgestellten
+Positionen. Will heißen: viele Fragen der Ontologie und Metaphysik
+sind in letzter Instanz nicht wirklich durch unsere Wahrnehmung zu
+entscheiden. Es bedarf vielmehr eines gewissen Glaubensbekenntnis. Es
+ist in diesem Sinne also eher eine Entscheidung, welche jeder Einzelne
+aufgrund gewisser ästhetischer Überlegungen zu treffen hat.
+
+Meine eigene Position hierzu ist noch nicht ganz gefunden. Ich
+tendiere zu einem Strukturalismus mit stark monistischen Zügen. Auf
+jeden Fall bin ich <<realist>> /Realist/: ich nehme an, dass die Welt
+/so wie wir sie wahrnehmen/ exisiert. In Folge dessen, glaube ich
+auch, dass wir durch gewisse Interaktionen mit dieser Welt, wie zum
+Beispiel das physikalische Experiment, Erkenntnisse über diese Welt
+sammeln können. Und: Argumente, welche sich auf solche Erkenntnisse
+stützen, sollten meiner Meinung nach stärker gewichtet werden, als
+Argumente die dies nicht tun.
+
+* Footnotes
+
+[fn:1] Es finden sich in der Literatur unterschiedliche Auffassungen,
+was zum Teilbereich der Metaphysik und was zum Teilbereich der
+Ontologie zugehörig ist. Teilweise werden diese Begriffe auch
+überhaupt nicht differenziert.
+ 

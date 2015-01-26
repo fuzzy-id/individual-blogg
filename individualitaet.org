@@ -1,0 +1,164 @@
+#+TITLE: Individualität
+#+DATE: <2015-01-17 Sat>
+#+INCLUDE: artikel_kopf.org
+
+Fangen wir also mit dem ersten Wort des Titels an:
+/Individuationsprobleme/. Um über Probleme zu sprechen sollten wir
+zunächst versuchen den Begriff Individuation fest zu zurren. Hierbei
+werde ich im Wesentlichen einer Terminologie folgen, wie sie in
+\cite{muller2008:_discerning_fermions} zu finden ist. Ein Artikel,
+welcher früher oder später noch einen eigenen Eintrag verlangen
+wird. Aber eines nach dem anderen!
+
+* Leibniz
+
+  Das Thema der Individuation kann auf eine recht lange Tradition
+  zurückblicken. Als grundlegende Problematik schwingt es in der
+  Motivation und Beackerung diverser metaphysischer Systeme mit:
+  + unter welchen Bedingungen sind zwei Objekte so geschaffen, dass
+    man vielmehr nur von einem reden müsste? Und:
+  + unter welchen Bedingungen kann man bei einem Sachverhalt davon
+    ausgehen, dass (zumindest) zwei Objekte vorliegen?
+
+  Der erste, der Individuation in einer Weise angegangen ist, so dass
+  theoretische Philosophen sich auch heute noch darauf beziehen, war
+  Leibniz. Er formulierte hierzu zwei Prinzipien:
+  1) das /Prinzip der Ununterscheidbarkeit des Identischen/, i.e. zwei
+     Objekte, welche eigentlich identisch sind, besitzen die selben
+     Eigenschaften; und
+  2) das /Prinzip der Identität des Ununterscheidbaren/ (/principium
+     identitatis indiscernibilium/ – PII), welches besagt, „daß
+     niemals zwei Substanzen einander vollkommen gleichen und nur der
+     Zahl nach von einander verschieden sind.“
+     \cite{leibniz1966:_metaphysische_abhandlung} [S. 144]
+  
+  Dies alles scheint vermutlich zunächst recht abstrakt und
+  stupide. Wird aber gleich etwas griffiger werden, wenn wir uns die
+  Übersetzung dieser Prinzipien in ein formales logisches Kalkül, der
+  Prädikatenlogik, ansehen. Insbesondere der hier vielleicht noch
+  etwas obskur scheinende Objekt-Begriff wird dann eine Klärung
+  erlangen.
+
+  Es kann an dieser Stelle jedoch bereits gesagt werden, dass das
+  Prinzip der Ununterscheidbarkeit des Identischen als unproblematisch
+  angesehen wird. Es ist das PII, welches in der
+  wissenschaftsphilosophischen Debatte immer wieder Fragen aufwirft
+  und Probleme verursacht – so auch in der aktuellen.
+
+  Ein weiterer Punkt noch. Die im ersten Abschnitt aufgeworfenen
+  Fragen haben eine epistemologische (erkenntnistheoretische) und eine
+  ontologische Lesart. Zur epistemologischen Lesart gelangt man, wenn
+  man den Fragen ein „Wann sind wir dazu berechtigt zu sagen, dass …“
+  vorschiebt. Die Beantwortung der so resultierenden Fragestellung
+  klärt noch nicht, wieviel Objekte wirklich vorhanden sind. Die
+  Klärung dieser Frage ist eben Bestand der [[./arbeitsbereich_und_themenfeld.org::Ontologie][Ontologie bzw. Metaphysik]].
+
+* Prädikatenlogik
+  
+  Prädikatenlogik zeichnet sich durch die Einführung von Quantoren
+  aus und $n$-stelligen Prädikaten aus:
+  + dem Allquantor (\(\forall\)) (sprich: „Für alle …“), welcher besagt,
+    dass der Ausdruck in seinem Bereich für alle möglichen Ersetzungen
+    der hinter ihr stehenden Variablen aus der gegebenen Menge von
+    Objekten gilt, i.e. wahr ist;
+  + dem Existenzquantor (\(\exists\)) (sprich: „Es gibt ein …“), welcher
+    besagt, dass es eine mögliche Ersetzung der hinter ihr stehenden
+    Variablen aus der gegebenen Menge von Objekten gibt, so dass der
+    Ausdruck in seinem Bereich wahr ist;
+  + Prädikate (hier nur \(P\) und \(R\)), wie z.B. in dem Ausdruck
+    \(Po\), der genau dann wahr ist, wenn dem Objekt \(o\) die
+    Eigenschaft \(P\) zukommt;
+  + außerdem gibt es noch eine Reihe weiterer logischer Operatoren,
+    wie z.B. das Konditional \(\rightarrow\): der Ausdruck ‚\(a
+    \rightarrow b\)‘ (sprich: „Wenn \(a\), dann \(b\)“) ist genau dann
+    /nicht/ wahr, wenn \(a\) wahr ist und \(b\) falsch.
+  
+  Fangen wir mit dem unproblematischen an. Das Prinzip der
+  Ununterscheidbarkeit des Identischen lautet ausgedrückt in
+  Prädikatenlogik:
+
+     \begin{equation}
+       \label{eq:indisc-of-ids}
+       \forall x \forall y \left( x = y \rightarrow \forall P \left( P x \rightarrow  P y \right) \right).
+     \end{equation}
+
+  Es soll darauf hingewiesen sein, dass der All-Quantor in der Klammer
+  über Prädikate quantifiziert, deswegen sprechen wir hier genauer von
+  der Prädikatenlogik zweiter Stufe. In Worten: für alle möglichen
+  Objekt-Einsetzungen $x$ und $y$ gilt, wenn $x$ und $y$ identisch
+  sind, dann gilt für jede Eigenschaft $P$: wenn \(x\) \(P\) ist, dann
+  ist auch \(y\) \(P\).
+
+  Nun zum problematischeren PII:
+
+     \begin{equation}
+       \label{eq:id-of-indiscs}
+       \forall x \forall y \left( \forall P \left( P x \rightarrow  P y \right) \rightarrow x = y \right)
+     \end{equation}
+
+  Wenn also gilt, dass wenn $x$ $P$ ist, dann auch $y$ $P$ ist, und
+  dies für alle möglichen Prädikate $P$ gilt, dann müssen wir die
+  Identität von $x$ und $y$ annehmen.
+
+  Betrachtet man Alltagsobjekte, so scheint obiges Prinzip im höchsten
+  Maße plausibel. Kein Ei gleicht, dem anderen. Und selbst wenn es
+  gelingen sollte, zwei Gegenstände zu finden, welche sich in allen
+  qualitativen Eigenschaften exakt gleichen, so wäre es doch immerhin
+  noch möglich durch die Hinzunahme von Prädikaten, welche Raum und
+  Zeit berücksichtigen, die zwei Gegenstände klar voneinander
+  abzugrenzen.
+
+  Es gibt jedoch Fälle in der Mathemik, in welchen das PII verletzt zu
+  sein scheint. Das heißt, dass es in der Mathematik Objekte gibt,
+  denen dieselben qualitativen Eigenschaften zu kommen, die jedoch
+  numerisch verschieden sind. Einen solchen Fall ist bereits recht
+  einfach als Gedankenexperiment zu konstruieren, mit welchem wir uns
+  denn auch im nächsten größeren Abschnitt beschäftigen wollen.
+
+  Nun gut, Mathematik und Gedankenexperimente! Kann man von der
+  Verletzungen des PII in solchen Fällen nicht absehen, so lange es
+  doch in der von uns wahrnehmbaren Welt hält, was es verspricht? Die
+  Antwort hierauf muss eindeutig „Nein!“ lauten. Zur Erinnerung: der
+  beackerte Themenbereich ist der der Metaphysik. Es wäre eigentlich
+  ganz nett das PII als metaphysisches Prinzip zu etablieren. Dies
+  bedeutet, dass es doch bitte in allen möglichen Welten gelten soll.
+  Und diese schließen Gedankenexperiment und logische Konstruktionen
+  wie die der Mathematik nunmal mit ein.
+
+  Die Motivation hierfür wiederum ist, das PII zur Definition der
+  Identität schlechthin zu benutzen. Und auf der Basis von Identität
+  kann dann wiederum entschieden werden, zu welchen ontologischen
+  Entitäten wir verpflichtet sind.[fn:1]
+
+  Wem Mathematik und Gedankenexperimente noch nicht ausreichen um über
+  das Schicksal des PII als metaphysisches Prinzip zu entscheiden:
+  auch in unseren derzeitigen und experimentell höchst erfolgreichen
+  Modellen der Physik gibt es Resultate, in denen das PII ungültig
+  scheint. Eines dieser Modelle, welchem wir uns später noch
+  intensiver zuwenden wollen, ist das der Quantenmechanik.
+
+  Dies ist insbesondere für [[./arbeitsbereich_und_themenfeld.html#realist][Realisten]] ein Problem, da es zu einem
+  Widerspruch führt. Zur Erinnerung: als Realist verpflichte ich mich
+  dazu, experimentell gewonnene Erkenntnisse als Erkenntnisse über
+  eine von uns unabhängige Welt anzunehmen. Wie können wir nun jemals
+  zu empirischen Beweisen für zwei ununterscheidbare Objekte gelangen?
+  Wenn zwei Objekte ununterscheidbar und trotzdem numerisch
+  verschieden sind, so müssten sie doch auch in unterschiedlichen
+  Beziehungen zu uns stehen, so dass wir ihre numerische
+  verschiedenheit feststellen können. Und müssten sie dann nicht
+  anhand dieser unterschiedlichen Beziehungen auch an sich
+  unterschieden werden können?
+
+  Als Realist will ich also beides: ich will anerkennen können, dass
+  erfolgreiche physikalische Modelle uns etwas über die Struktur der
+  Welt erzählen. Und ich will, dass die resultierende Struktur mit
+  Prinzipien in Einklang gebracht werden kann, welche eine vernünftige
+  und Konsistente Ontologie zu lassen.
+
+#+BIBLIOGRAPHY: ../../../bib/collected plain option:-d
+
+* Footnotes
+
+[fn:1] Quine (mehr zu diesem später) prägte den griffigen Satz: /No
+entity without identity./
+
