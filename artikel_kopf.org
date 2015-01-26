@@ -13,6 +13,7 @@
 
 #+HTML_HEAD: <link rel="stylesheet" title="Zenburn" href="static/zenburn-emacs.css" type="text/css" />
 #+HTML_HEAD: <link rel="stylesheet" title="Zenburn" href="static/worg-zenburn.css" type="text/css" />
+#+HTML_MATHJAX: path:"MathJax/MathJax.js"
 
 [[./index.html][zurück]]
 
