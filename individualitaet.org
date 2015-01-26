@@ -155,7 +155,7 @@ wird. Aber eines nach dem anderen!
   Prinzipien in Einklang gebracht werden kann, welche eine vernünftige
   und Konsistente Ontologie zu lassen.
 
-#+BIBLIOGRAPHY: pii plain option:-d
+#+BIBLIOGRAPHY: ./pii plain option:-d
 
 * Footnotes
 
