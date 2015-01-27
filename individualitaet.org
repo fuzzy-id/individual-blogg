@@ -53,7 +53,7 @@ wird. Aber eines nach dem anderen!
   klärt noch nicht, wieviel Objekte wirklich vorhanden sind. Die
   Klärung dieser Frage ist eben Bestand der [[./arbeitsbereich_und_themenfeld.org::Ontologie][Ontologie bzw. Metaphysik]].
 
-* Prädikatenlogik
+* Prädikatenlogik <<Praedikatenlogik>>
   
   Prädikatenlogik zeichnet sich durch die Einführung von Quantoren
   aus und $n$-stelligen Prädikaten aus:
