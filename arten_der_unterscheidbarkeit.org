@@ -1,0 +1,88 @@
+#+TITLE: Die Hierarchie der Unterscheidbarkeit
+#+INCLUDE: artikel_kopf.org
+
+Nach der Einführung und Motivierung des PII möchte ich in diesem
+Artikel auf verschiedene Spielarten und Varianten des PII
+eingehene. Der ausschlaggebende Aufsatz hierzu ist Quines /Grades of
+Discriminability/ \cite{quine1976:_grades_discriminability}:
+
+#+BEGIN_QUOTE
+„A sentence in one variable /specifies/ an object if satisfied by it
+uniquely. A sentence in one variable /strongly discriminates/ two
+objects if satisfied by one and not the other. A sentence in two
+variables /moderately discriminates/ two objects if satisfied by them
+in one order only. A sentence in two variables /weakly discriminates/
+two objects if satisfied by the two but not by one of them with
+itself.“ \cite{quine1976:_grades_discriminability} [S. 113]
+#+END_QUOTE
+
+Quines starke Unterscheidbarkeit wird in der neueren Debatte generell
+als absolute Unterscheidbarkeit eingeführt und seine moderate als
+relative Unterscheidbarkeit. Führen wir zunächst ein paar hübsche
+Abkürzungen für obige Definitionen zusammen mit den Übersetzungen in
+die [[./individualitaet.org::Praedikatenlogik][Prädikatenlogik]] ein:
++ $x$ ist /absolut unterscheidbar/ von $y$ \((\mathrm{AbsDis}(x,y))\)
+  gdw. \(Fx \wedge \neg Fy\);
++ $x$ ist /relativ unterscheidbar/ von $y$ \((\mathrm{RelDis}(x,y))\)
+  gdw. \(Fxy \wedge \neg Fyx\);
++ $x$ ist /schwach unterscheidbar/ von $y$ \((\mathrm{WkDis}(x,y))\)
+  gdw. \(Fxy \wedge \neg Fxx\);
++ $x$ ist /numerisch verschieden/ von $y$ \((\mathrm{NumDis}(x,y))\);
++ $x$ ist /ununterscheidbar/ von $y$ gdw. \(\neg
+  \mathrm{WkDis}(x,y)\).
+Quine bewies bereits, dass schwache Unterscheidbarkeit zugleich die
+schwächstmögliche Form der Unterscheidbarkeit darstellt. Daher ist
+auch unsere Definition der Ununterscheidbarkeit
+gerechtfertigt. Ebenfalls argumentiert er dafür, dass relative
+Unterscheidbarkeit die einzig mögliche Form der Unterscheidbarkeit
+zwischen absoluter und schwacher Unterscheidbarkeit darstellt. Dieses
+Resultat, hier jedoch als Beweis, findet man auch in
+\cite{ladyman2012:_identity_discernibility_philosophy_logic}.
+
+Insbesonder gilt
+
+  \begin{equation}
+    \label{eq:2}
+    \mathrm{AbsDis}(x,y)
+    \rightarrow \mathrm{RelDis}(x,y)
+    \rightarrow \mathrm{WkDis}(x,y)
+    \rightarrow \mathrm{NumDis}(x,y),
+  \end{equation}
+
+i.e. wenn $x$ und $y$ stark unterscheidbar sind, so sind sie auch
+relativ unterscheidbar, etc. Im Allgemeinen gilt der umgekehrte Fall
+jedoch nicht: wenn $x$ und $y$ schwach unterscheidbar sind, so sind
+diese nicht notwendigerweise auch relative unterscheidbar, etc. Wir
+haben es hier also mit einer Hierarchie der Unterscheidbarkeit zu
+tun.[fn:2]
+
+Versuchten wir nun Quines Spezifizierbarkeit in die Prädikatenlogik zu
+übersetzen. So wäre ein erster Ansatz folgender:
+
++ $x$ ist spezifizierbar \((\mathrm{Spez(x)})\) gdw. \(Fx \wedge
+  \forall y.(x \neq y \rightarrow \neg Fy)\).
+
+Hier wird jedoch bereits eine Definition von Identität (\(=\))
+vorausgesetzt. In einem ersten Versuch dies zu umgehen könnten wir
+verlangen, dass es ein zweistelliges Prädikat $G$ gäbe, so dass im
+Allgemeinen \(Gxx\) und \(\neg Gxy\) für den Fall, dass $x$ und $y$
+numerisch verschieden sind. In obiger Definition würde dann \(x \neq
+y\) durch \(\neg Gxy\) ersetzt. Schaut man sich nun jedoch die
+Eigenschaften von $G$ an, so sind diese wiederum genau die
+Eigenschaften der Identität. $G$ ist in diesem Falle also \(=\).
+
+
+
+Als Beispiel für stark diskriminerbare, jedoch nicht spezifizierbare
+Objekte nennt Quine den Körper der reellen Zahlen.[fn:1]
+
+
+#+BIBLIOGRAPHY: ./pii plain option:-d
+
+* Footnotes
+
+[fn:1] Allerdings stellt die diskrimierbarkeit mittels (\(\exists \mu.
+\exists \nu.(x < \mu/\nu \wedge x \not{<} \mu/\nu)\) in diesem Falle
+die Spezifizierbarkeit im Unendlichen sicher.
+
+[fn:2] Siehe hierzu \cite{ketland2011:_identity_indiscernibility}.
